@@ -1,0 +1,16 @@
+.stream {
+    max-width: 100% !important;
+    margin: 0px auto;
+}
+.stream > div {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0px;
+}
+.stream iframe {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 75%;
+    height: 100%;
+}
